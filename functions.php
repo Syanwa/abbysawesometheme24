@@ -27,3 +27,6 @@ function abbysawesome_theme_setup(){
 add_action('init','abbysawesome_theme_setup');
 /* This requests wordpress to execute the function after initialization. The other option is after_setup_theme
 */
+add_theme_support('custom-background');
+add_theme_support('custom-header');
+add_theme_support('post-thumbnails');
